@@ -964,7 +964,7 @@ function ChartsPage() {
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">DoughnutChart</h2>
                     </header>
                     <div className="p-3">
-                      <div className="h-72">
+                      <div className="h-64">
                         <DoughnutChart data={doughnutChartData} width={389} height={260} />
                       </div>
                     </div>
@@ -976,7 +976,7 @@ function ChartsPage() {
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">PieChart</h2>
                     </header>
                     <div className="p-3">
-                      <div className="h-72">
+                      <div className="h-64">
                         <PieChart data={pieChartData} width={389} height={260} />
                       </div>
                     </div>
@@ -988,7 +988,7 @@ function ChartsPage() {
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">PolarChart</h2>
                     </header>
                     <div className="p-3">
-                      <div className="h-72">
+                      <div className="h-64">
                         <PolarChart data={polarChartData} width={389} height={260} />
                       </div>
                     </div>
