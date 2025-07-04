@@ -97,7 +97,7 @@ function Sidebar({
               <span className="hidden lg:block lg:sidebar-expanded:hidden 2xl:hidden text-center w-6" aria-hidden="true">
                 •••
               </span>
-              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">Page Designs</span>
+              <span className="lg:hidden lg:sidebar-expanded:block 2xl:block">Design Resources</span>
             </h3>
             <ul className="mt-3">
               {/* Dashboard */}
