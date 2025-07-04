@@ -27,7 +27,6 @@ import Roadmap from './pages/utility/Roadmap';
 import Faqs from './pages/utility/Faqs';
 import EmptyState from './pages/utility/EmptyState';
 import PageNotFound from './pages/utility/PageNotFound';
-import ChartsPage from './pages/ChartsPage';
 import Signin from './pages/Signin';
 import Signup from './pages/Signup';
 import ResetPassword from './pages/ResetPassword';
@@ -66,7 +65,6 @@ function App() {
         <Route path="/dashboard/dashboard-02" element={<Analytics />} />
         <Route path="/dashboard/dashboard-03" element={<Fintech />} />
         <Route path="/campaigns" element={<Campaigns />} />
-        <Route path="/charts" element={<ChartsPage />} />
         <Route path="/finance/cards" element={<CreditCards />} />
         <Route path="/finance/transactions" element={<Transactions />} />
         <Route path="/finance/transaction-details" element={<TransactionDetails />} />

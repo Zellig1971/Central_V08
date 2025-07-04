@@ -315,33 +315,6 @@ function Sidebar({
                 </NavLink>
               </li>
             </ul>
-              {/* Charts */}
-              <li className={`px-3 py-2 rounded-lg mb-0.5 last:mb-0 ${pathname.includes('charts') && 'bg-linear-to-r from-violet-500/[0.12] dark:from-violet-500/[0.24] to-violet-500/[0.04]'}`}>
-                <NavLink
-                  end
-                  to="/charts"
-                  className={`block text-gray-200 truncate transition duration-150 ${
-                    pathname.includes('charts') ? 'hover:text-gray-200' : 'hover:text-white'
-                  }`}
-                >
-                  <div className="flex items-center">
-                    <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
-                      <path
-                        className={`fill-current ${pathname.includes('charts') ? 'text-violet-500' : 'text-gray-600'}`}
-                        d="M1 12a1 1 0 0 1-.707-1.704l4.496-4.493a1 1 0 0 1 1.413 0l3.29 3.287 4.79-4.785a1 1 0 1 1 1.413 1.412l-5.496 5.491a1 1 0 0 1-1.413 0L5.496 7.92l-3.79 3.787A1 1 0 0 1 .999 12Z"
-                      />
-                      <path
-                        className={`fill-current ${pathname.includes('charts') ? 'text-violet-300' : 'text-gray-400'}`}
-                        d="M12 17a.833.833 0 0 1-.833-.833 3.333 3.333 0 0 0-3.334-3.334.833.833 0 1 1 0-1.666 3.333 3.333 0 0 0 3.334-3.334.833.833 0 0 1 1.666 0 3.333 3.333 0 0 0 3.334 3.334.833.833 0 1 1 0 1.666 3.333 3.333 0 0 0-3.334 3.334c0 .46-.373.833-.833.833Z"
-                      />
-                    </svg>
-                    <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                      Charts
-                    </span>
-                  </div>
-                </NavLink>
-              </li>
-
           </div>
         </div>
       </div>
