@@ -316,6 +316,7 @@ function Sidebar({
               </li>
             </ul>
               {/* Charts */}
+            <ul className="mt-3">
               <li className={`px-3 py-2 rounded-lg mb-0.5 last:mb-0 ${pathname.includes('charts') && 'bg-linear-to-r from-violet-500/[0.12] dark:from-violet-500/[0.24] to-violet-500/[0.04]'}`}>
                 <NavLink
                   end
@@ -341,6 +342,7 @@ function Sidebar({
                   </div>
                 </NavLink>
               </li>
+            </ul>
 
           </div>
         </div>

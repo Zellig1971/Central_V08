@@ -771,8 +771,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart01 - Direct vs Indirect</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart01 data={barChart01Data} width={595} height={248} />
                       </div>
                     </div>
@@ -783,8 +783,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart02 - Stacked</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart02 data={barChart02Data} width={595} height={248} />
                       </div>
                     </div>
@@ -795,8 +795,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart03 - Cash Flow</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart03 data={barChart03Data} width={595} height={248} />
                       </div>
                     </div>
@@ -807,8 +807,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart04 - Horizontal</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart04 data={barChart04Data} width={595} height={248} />
                       </div>
                     </div>
@@ -819,8 +819,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart05 - Single Bar</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart05 data={barChart05Data} width={595} height={248} />
                       </div>
                     </div>
@@ -831,8 +831,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">BarChart06 - Negative Values</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <BarChart06 data={barChart06Data} width={595} height={248} />
                       </div>
                     </div>
@@ -849,8 +849,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart01 - Basic with Fill</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart01 data={lineChart01Data} width={595} height={248} />
                       </div>
                     </div>
@@ -861,8 +861,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart02 - Multiple Lines</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart02 data={lineChart02Data} width={595} height={248} />
                       </div>
                     </div>
@@ -873,8 +873,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart03 - Gradient Fill</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart03 data={lineChart03Data} width={595} height={248} />
                       </div>
                     </div>
@@ -885,8 +885,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart04 - Small</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart04 data={lineChart04Data} width={595} height={248} />
                       </div>
                     </div>
@@ -897,8 +897,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart05 - Percentage</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart05 data={lineChart05Data} width={595} height={248} />
                       </div>
                     </div>
@@ -909,8 +909,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart06 - No Fill</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart06 data={lineChart06Data} width={595} height={248} />
                       </div>
                     </div>
@@ -921,8 +921,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart07 - Growth</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart07 data={lineChart07Data} width={595} height={248} />
                       </div>
                     </div>
@@ -933,8 +933,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart08 - Compact</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart08 data={lineChart08Data} width={595} height={248} />
                       </div>
                     </div>
@@ -945,8 +945,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">LineChart09 - Minimal</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <LineChart09 data={lineChart09Data} width={595} height={248} />
                       </div>
                     </div>
@@ -963,8 +963,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">DoughnutChart</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '260px' }}>
                         <DoughnutChart data={doughnutChartData} width={389} height={260} />
                       </div>
                     </div>
@@ -975,8 +975,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">PieChart</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '260px' }}>
                         <PieChart data={pieChartData} width={389} height={260} />
                       </div>
                     </div>
@@ -987,8 +987,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">PolarChart</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '260px' }}>
                         <PolarChart data={polarChartData} width={389} height={260} />
                       </div>
                     </div>
@@ -1005,8 +1005,8 @@ function ChartsPage() {
                     <header className="px-5 py-4 border-b border-gray-100 dark:border-gray-700/60">
                       <h2 className="font-semibold text-gray-800 dark:text-gray-100">RealtimeChart</h2>
                     </header>
-                    <div className="p-3">
-                      <div className="h-64">
+                    <div className="px-5 py-3">
+                      <div style={{ height: '248px' }}>
                         <RealtimeChart data={realtimeChartData} width={595} height={248} />
                       </div>
                     </div>
