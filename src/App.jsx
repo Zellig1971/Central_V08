@@ -12,14 +12,6 @@ import Dashboard from './pages/Dashboard';
 import Analytics from './pages/Analytics';
 import Fintech from './pages/Fintech';
 import Campaigns from './pages/Campaigns';
-import UsersTabs from './pages/community/UsersTabs';
-import UsersTiles from './pages/community/UsersTiles';
-import Profile from './pages/community/Profile';
-import Feed from './pages/community/Feed';
-import Forum from './pages/community/Forum';
-import ForumPost from './pages/community/ForumPost';
-import Meetups from './pages/community/Meetups';
-import MeetupsPost from './pages/community/MeetupsPost';
 import CreditCards from './pages/finance/CreditCards';
 import Transactions from './pages/finance/Transactions';
 import TransactionDetails from './pages/finance/TransactionDetails';
@@ -74,14 +66,6 @@ function App() {
         <Route path="/dashboard/analytics" element={<Analytics />} />
         <Route path="/dashboard/fintech" element={<Fintech />} />
         <Route path="/campaigns" element={<Campaigns />} />
-        <Route path="/community/users-tabs" element={<UsersTabs />} />
-        <Route path="/community/users-tiles" element={<UsersTiles />} />
-        <Route path="/community/profile" element={<Profile />} />
-        <Route path="/community/feed" element={<Feed />} />
-        <Route path="/community/forum" element={<Forum />} />
-        <Route path="/community/forum-post" element={<ForumPost />} />
-        <Route path="/community/meetups" element={<Meetups />} />
-        <Route path="/community/meetups-post" element={<MeetupsPost />} />
         <Route path="/finance/cards" element={<CreditCards />} />
         <Route path="/finance/transactions" element={<Transactions />} />
         <Route path="/finance/transaction-details" element={<TransactionDetails />} />
