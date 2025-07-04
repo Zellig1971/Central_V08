@@ -11,16 +11,6 @@ import './css/style.css';
 import Dashboard from './pages/Dashboard';
 import Analytics from './pages/Analytics';
 import Fintech from './pages/Fintech';
-import Customers from './pages/ecommerce/Customers';
-import Orders from './pages/ecommerce/Orders';
-import Invoices from './pages/ecommerce/Invoices';
-import Shop from './pages/ecommerce/Shop';
-import Shop2 from './pages/ecommerce/Shop2';
-import Product from './pages/ecommerce/Product';
-import Cart from './pages/ecommerce/Cart';
-import Cart2 from './pages/ecommerce/Cart2';
-import Cart3 from './pages/ecommerce/Cart3';
-import Pay from './pages/ecommerce/Pay';
 import Campaigns from './pages/Campaigns';
 import UsersTabs from './pages/community/UsersTabs';
 import UsersTiles from './pages/community/UsersTiles';
@@ -33,9 +23,6 @@ import MeetupsPost from './pages/community/MeetupsPost';
 import CreditCards from './pages/finance/CreditCards';
 import Transactions from './pages/finance/Transactions';
 import TransactionDetails from './pages/finance/TransactionDetails';
-import JobListing from './pages/job/JobListing';
-import JobPost from './pages/job/JobPost';
-import CompanyProfile from './pages/job/CompanyProfile';
 import Messages from './pages/Messages';
 import TasksKanban from './pages/tasks/TasksKanban';
 import TasksList from './pages/tasks/TasksList';
@@ -89,16 +76,6 @@ function App() {
         <Route exact path="/" element={<Dashboard />} />
         <Route path="/dashboard/analytics" element={<Analytics />} />
         <Route path="/dashboard/fintech" element={<Fintech />} />
-        <Route path="/ecommerce/customers" element={<Customers />} />
-        <Route path="/ecommerce/orders" element={<Orders />} />
-        <Route path="/ecommerce/invoices" element={<Invoices />} />
-        <Route path="/ecommerce/shop" element={<Shop />} />
-        <Route path="/ecommerce/shop-2" element={<Shop2 />} />
-        <Route path="/ecommerce/product" element={<Product />} />
-        <Route path="/ecommerce/cart" element={<Cart />} />
-        <Route path="/ecommerce/cart-2" element={<Cart2 />} />
-        <Route path="/ecommerce/cart-3" element={<Cart3 />} />
-        <Route path="/ecommerce/pay" element={<Pay />} />
         <Route path="/campaigns" element={<Campaigns />} />
         <Route path="/community/users-tabs" element={<UsersTabs />} />
         <Route path="/community/users-tiles" element={<UsersTiles />} />
@@ -111,9 +88,6 @@ function App() {
         <Route path="/finance/cards" element={<CreditCards />} />
         <Route path="/finance/transactions" element={<Transactions />} />
         <Route path="/finance/transaction-details" element={<TransactionDetails />} />
-        <Route path="/job/job-listing" element={<JobListing />} />
-        <Route path="/job/job-post" element={<JobPost />} />
-        <Route path="/job/company-profile" element={<CompanyProfile />} />
         <Route path="/messages" element={<Messages />} />
         <Route path="/tasks/kanban" element={<TasksKanban />} />
         <Route path="/tasks/list" element={<TasksList />} />
