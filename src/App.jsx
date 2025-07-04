@@ -16,7 +16,6 @@ import CreditCards from './pages/finance/CreditCards';
 import Transactions from './pages/finance/Transactions';
 import TransactionDetails from './pages/finance/TransactionDetails';
 import Messages from './pages/Messages';
-import Calendar from './pages/Calendar';
 import Account from './pages/settings/Account';
 import Notifications from './pages/settings/Notifications';
 import Apps from './pages/settings/Apps';
@@ -70,7 +69,6 @@ function App() {
         <Route path="/finance/transactions" element={<Transactions />} />
         <Route path="/finance/transaction-details" element={<TransactionDetails />} />
         <Route path="/messages" element={<Messages />} />
-        <Route path="/calendar" element={<Calendar />} />
         <Route path="/settings/account" element={<Account />} />
         <Route path="/settings/notifications" element={<Notifications />} />
         <Route path="/settings/apps" element={<Apps />} />

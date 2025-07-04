@@ -1,0 +1,14 @@
+# Ignore unused files and directories
+src/pages/Calendar.jsx
+src/pages/tasks/TasksKanban.jsx
+src/pages/tasks/TasksList.jsx
+src/partials/tasks/Task01.jsx
+src/partials/tasks/Task02.jsx
+src/partials/tasks/Task03.jsx
+src/partials/tasks/Task04.jsx
+src/partials/tasks/Task05.jsx
+src/partials/tasks/Task06.jsx
+src/partials/tasks/Task07.jsx
+src/partials/tasks/Task08.jsx
+src/partials/tasks/Task09.jsx
+src/partials/tasks/TasksGroups.jsx
