@@ -138,7 +138,7 @@ function Sidebar({
                               />
                             </svg>
                             <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                              Design Dashboard
+                              Design Dashboards
                             </span>
                           </div>
                           {/* Icon */}
@@ -160,7 +160,7 @@ function Sidebar({
                               }
                             >
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Main
+                                Dashboard 01
                               </span>
                             </NavLink>
                           </li>
@@ -173,7 +173,7 @@ function Sidebar({
                               }
                             >
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Analytics
+                                Dashboard 02
                               </span>
                             </NavLink>
                           </li>
@@ -186,7 +186,7 @@ function Sidebar({
                               }
                             >
                               <span className="text-sm font-medium lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
-                                Fintech
+                                Dashboard 03
                               </span>
                             </NavLink>
                           </li>
