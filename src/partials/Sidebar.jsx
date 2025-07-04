@@ -1,6 +1,3 @@
-Here's the fixed version with the missing closing brackets and proper structure. I've added the missing closing bracket for the Community section and ensured proper nesting:
-
-```javascript
 import React, { useState, useEffect, useRef } from 'react';
 import { NavLink, useLocation } from 'react-router-dom';
 
@@ -520,6 +517,7 @@ function Sidebar({
                   );
                 }}
               </SidebarLinkGroup>
+
               {/* Calendar */}
               <li className={`px-3 py-2 rounded-lg mb-0.5 last:mb-0 ${pathname.includes('calendar') && 'bg-linear-to-r from-violet-500/[0.12] dark:from-violet-500/[0.24] to-violet-500/[0.04]'}`}>
                 <NavLink
@@ -553,4 +551,29 @@ function Sidebar({
                     pathname.includes('campaigns') ? 'hover:text-gray-200' : 'hover:text-white'
                   }`}
                 >
-                  <div className
+                  <div className="flex items-center">
+                    <svg className="shrink-0 h-6 w-6" viewBox="0 0 24 24">
+                      <path
+                        className={`fill-current ${pathname.includes('campaigns') ? 'text-violet-500' : 'text-gray-600'}`}
+                        d="M20 7a.75.75 0 01-.75-.75 1.5 1.5 0 00-1.5-1.5.75.75 0 110-1.5 1.5 1.5 0 001.5-1.5.75.75 0 111.5 0 1.5 1.5 0 001.5 1.5.75.75 0 110 1.5 1.5 1.5 0 00-1.5 1.5A.75.75 0 0120 7zM4 23a.75.75 0 01-.75-.75 1.5 1.5 0 00-1.5-1.5.75.75 0 110-1.5 1.5 1.5 0 001.5-1.5.75.75 0 111.5 0 1.5 1.5 0 001.5 1.5.75.75 0 110 1.5 1.5 1.5 0 00-1.5 1.5A.75.75 0 014 23z"
+                      />
+                      <path
+                        className={`fill-current ${pathname.includes('campaigns') ? 'text-violet-300' : 'text-gray-400'}`}
+                        d="M14.5 7c4.695 0 8.5 3.805 8.5 8.5s-3.805 8.5-8.5 8.5-8.5-3.805-8.5-8.5 3.805-8.5 8.5-8.5z"
+                      />
+                    </svg>
+                    <span className="text-sm font-medium ml-3 lg:opacity-0 lg:sidebar-expanded:opacity-100 2xl:opacity-100 duration-200">
+                      Campaigns
+                    </span>
+                  </div>
+                </NavLink>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  );
+}
+
+export default Sidebar;
