@@ -62,8 +62,8 @@ function App() {
     <>
       <Routes>
         <Route exact path="/" element={<Dashboard />} />
-        <Route path="/dashboard/analytics" element={<Analytics />} />
-        <Route path="/dashboard/fintech" element={<Fintech />} />
+        <Route path="/dashboard/dashboard-02" element={<Analytics />} />
+        <Route path="/dashboard/dashboard-03" element={<Fintech />} />
         <Route path="/campaigns" element={<Campaigns />} />
         <Route path="/finance/cards" element={<CreditCards />} />
         <Route path="/finance/transactions" element={<Transactions />} />

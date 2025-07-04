@@ -167,7 +167,7 @@ function Sidebar({
                           <li className="mb-1 last:mb-0">
                             <NavLink
                               end
-                              to="/dashboard/analytics"
+                              to="/dashboard/dashboard-02"
                               className={({ isActive }) =>
                                 'block transition duration-150 truncate ' + (isActive ? 'text-violet-500' : 'text-gray-400 hover:text-gray-200')
                               }
@@ -180,7 +180,7 @@ function Sidebar({
                           <li className="mb-1 last:mb-0">
                             <NavLink
                               end
-                              to="/dashboard/fintech"
+                              to="/dashboard/dashboard-03"
                               className={({ isActive }) =>
                                 'block transition duration-150 truncate ' + (isActive ? 'text-violet-500' : 'text-gray-400 hover:text-gray-200')
                               }
