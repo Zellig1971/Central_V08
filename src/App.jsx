@@ -24,9 +24,6 @@ import CreditCards from './pages/finance/CreditCards';
 import Transactions from './pages/finance/Transactions';
 import TransactionDetails from './pages/finance/TransactionDetails';
 import Messages from './pages/Messages';
-import TasksKanban from './pages/tasks/TasksKanban';
-import TasksList from './pages/tasks/TasksList';
-import Inbox from './pages/Inbox';
 import Calendar from './pages/Calendar';
 import Account from './pages/settings/Account';
 import Notifications from './pages/settings/Notifications';
@@ -89,9 +86,6 @@ function App() {
         <Route path="/finance/transactions" element={<Transactions />} />
         <Route path="/finance/transaction-details" element={<TransactionDetails />} />
         <Route path="/messages" element={<Messages />} />
-        <Route path="/tasks/kanban" element={<TasksKanban />} />
-        <Route path="/tasks/list" element={<TasksList />} />
-        <Route path="/inbox" element={<Inbox />} />
         <Route path="/calendar" element={<Calendar />} />
         <Route path="/settings/account" element={<Account />} />
         <Route path="/settings/notifications" element={<Notifications />} />
