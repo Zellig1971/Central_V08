@@ -1,11 +1,11 @@
 import { createContext, useContext, useState, useEffect } from 'react';
 
-const ThemeContext = createContext({
+export const ThemeContext = createContext({
   currentTheme: 'light',
   changeCurrentTheme: () => {},
 });
 
-export default function ThemeProvider({children}) {  
+export default function ThemeProvider({ children }) {
   const persistedTheme = localStorage.getItem('theme');
   const [theme, setTheme] = useState(persistedTheme || 'light');
 
@@ -15,7 +15,9 @@ export default function ThemeProvider({children}) {
   };
 
   useEffect(() => {
-    document.documentElement.classList.add('**:transition-none!');
+    // Remove any previous transition disabling class
+    document.documentElement.classList.remove('no-transition');
+
     if (theme === 'light') {
       document.documentElement.classList.remove('dark');
       document.documentElement.style.colorScheme = 'light';
@@ -24,14 +26,20 @@ export default function ThemeProvider({children}) {
       document.documentElement.style.colorScheme = 'dark';
     }
 
+    // Optional: Add a class to temporarily disable transitions (if needed)
+    document.documentElement.classList.add('no-transition');
     const transitionTimeout = setTimeout(() => {
-      document.documentElement.classList.remove('**:transition-none!');
+      document.documentElement.classList.remove('no-transition');
     }, 1);
-    
+
     return () => clearTimeout(transitionTimeout);
   }, [theme]);
 
-  return <ThemeContext.Provider value={{ currentTheme: theme, changeCurrentTheme }}>{children}</ThemeContext.Provider>;
+  return (
+    <ThemeContext.Provider value={{ currentTheme: theme, changeCurrentTheme }}>
+      {children}
+    </ThemeContext.Provider>
+  );
 }
 
 export const useThemeProvider = () => useContext(ThemeContext);
