@@ -5,15 +5,15 @@ import ThemeProvider, { ThemeContext } from './utils/ThemeContext';
 import App from './App';
 
 const Root = () => {
-  const { darkMode } = useContext(ThemeContext);
+  const { currentTheme } = useContext(ThemeContext);
 
   useEffect(() => {
-    if (darkMode) {
+    if (currentTheme === 'dark') {
       document.documentElement.classList.add('dark');
     } else {
       document.documentElement.classList.remove('dark');
     }
-  }, [darkMode]);
+  }, [currentTheme]);
 
   return <App />;
 };
